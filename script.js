@@ -2,6 +2,7 @@ const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 require('dotenv').config()
 
+const secertkey=process.env.secertkey
 // Secret key for encryption/decryption
  // Make sure to keep this secret and use an environment variable for real use
 
